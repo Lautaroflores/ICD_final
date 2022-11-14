@@ -8,7 +8,7 @@ library(modelr)
 premier <-read.csv('C:/Users/master/Desktop/UNSAM/ICD/tp_final/data/EPL_20_21.csv')
 #||||MEDIOCAMPISTAS||||
 
-#Filtramos por mediocampistas mayores a 25 y menores que 30,
+#Filtramos por mediocampistas mayores a 25 y menores que 30
 #Mediocampistas, mediocampistas defensivos
 
 pmid = filter(premier, Position == "MF"|Position=="DF,MF"|Position=="MF,DF")
